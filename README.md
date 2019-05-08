@@ -10,3 +10,13 @@ https://www.kaggle.com/mlg-ulb/creditcardfraud
 Pour que le code fonctionne alors sans problème, il suffit de prendre le fichier du jeu de données nommé "creditcard.csv" et de le placer dans le dossier "code" avec les fichiers ".py".
 
 Veuillez vous référer à l'article "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection" de Zong et al. pour la théorie et les détails sur les DAGMM. Il est librement disponible au lien suivant: https://openreview.net/forum?id=BJJLHbb0-
+
+Le fichier de code "dagmm.py" correspond à l'implémentation de la classe du DAGMM.
+Le fichier "model.py" implémente la logique de préparation des données, d'entraînement et de test.
+Le fichier "data_loader.py" permet de séparer le jeu de données en ensembles entraînement/test.
+Le fichier "history.py" permet d'enregistrer et d'afficher les métriques d'entraînement.
+Le fichier "utils.py" implémente des fonction utilitaires.
+Le fichier "main.py" gère la configuration et l'exécution des expériences.
+
+Le notebook jupyter "data_analysis.ipynb" correspond à une brève analyse des données.
+Le notebook jupyter "unsupervised_benchmark.ipynb" implémente quelques méthodes classiques d'apprentissage non supervisé sur le même jeu de données pour agir à titre de comparatif.

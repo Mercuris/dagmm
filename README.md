@@ -7,7 +7,7 @@ Le jeu de données n'est pas inclus dans le repo en raison de sa taille. Sans lu
 
 https://www.kaggle.com/mlg-ulb/creditcardfraud
 
-Pour que le code fonctionne alors sans problème, il suffit de prendre le fichier du jeu de données nommé "creditcard.csv" et de le placer dans le dossier "code" avec les fichiers ".py".
+Pour que le code fonctionne alors sans problème, il suffit de prendre le fichier du jeu de données nommé "creditcard.csv" et de le placer dans le même dossier que les fichiers ".py".
 
 Veuillez vous référer à l'article "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection" de Zong et al. pour la théorie et les détails sur les DAGMM. Il est librement disponible au lien suivant: https://openreview.net/forum?id=BJJLHbb0-
 
